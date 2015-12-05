@@ -1,0 +1,19 @@
+{
+  "name": "api-endpoint-lambda",
+  "version": "1.0.1",
+  "description": "Wraps api-endpoint with a convenient Lambda-friendly handler function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lambda",
+    "api",
+    "endpoint",
+    "api-deploy",
+    "api-endpoint",
+    "aws"
+  ],
+  "author": "Dallas Read",
+  "license": "MIT"
+}
