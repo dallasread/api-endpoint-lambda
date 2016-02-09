@@ -1,8 +1,12 @@
 {
   "name": "api-endpoint-lambda",
-  "version": "1.0.1",
-  "description": "Wraps api-endpoint with a convenient Lambda-friendly handler function",
+  "version": "1.0.2",
+  "description": "A simple, understandable way to create complex AWS Lambdas.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dallasread/api-endpoint-lambda"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +19,8 @@
     "aws"
   ],
   "author": "Dallas Read",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "api-endpoint": "^1.0.7"
+  }
 }
